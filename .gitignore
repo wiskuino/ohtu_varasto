@@ -1,4 +1,9 @@
-#ohtuvarasto_harjoitus
-*.tmp
-__pycache__/**/*.*
-.pytest_cache/**/*.*
+.vscode
+.DS_Store
+.coverage
+.pytest_cache
+htmlcov
+coverage.xml
+__pycache__
+*.py[cod]
+*$py.class
