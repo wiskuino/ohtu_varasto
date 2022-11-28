@@ -60,6 +60,7 @@ class TestVarasto(unittest.TestCase):
         self.varasto = Varasto(10,alku_saldo=10)
         
         self.varasto.ota_varastosta(20)
+        
         #varastosta on yritetty ottaa kaksinkertaisesti mitä siellä on, saadaan saldon verran
         self.assertAlmostEqual(self.varasto.saldo,0)
 
