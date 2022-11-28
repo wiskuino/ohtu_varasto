@@ -61,7 +61,7 @@ class TestVarasto(unittest.TestCase):
         
         self.varasto.ota_varastosta(20)
         
-        #varastosta on yritetty ottaa kaksinkertaisesti mitä siellä on, saadaan saldon verran
+        # varastosta on yritetty ottaa kaksinkertaisesti mitä siellä on, saadaan saldon verran
         self.assertAlmostEqual(self.varasto.saldo,0)
 
 
