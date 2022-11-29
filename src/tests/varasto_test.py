@@ -17,6 +17,7 @@ class TestVarasto(unittest.TestCase):
 
     def test_konstruktorin_alku_saldo_pienempi_kuin_nolla_kuitenkin_saldon_pitaa_on_nolla(self):
         self.varasto = Varasto(10,alku_saldo=-1)
+        # puukotetaan alku_saldo attrubuuttia negatiiviseksi
         
         self.assertAlmostEqual(self.varasto.saldo, 0)
 
